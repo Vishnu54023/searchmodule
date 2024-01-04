@@ -10,20 +10,27 @@
 	rel="stylesheet"
 	integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
 	crossorigin="anonymous">
+	
+	<style>
+	body{
+	background-color: #829295;
+	}
+	
+	</style>
 
 </head>
 <body>
 	<div class="container">
 		<div class="card mx-auto mt-2"
-			style="width: 50%; background-color: red;">
-			<div class="card-body ">
+			style="width: 50%; background-color: #2d5580;">
+			<div class="card-body">
 				<form action="handler" method="post">
 					<div class="text-center" m-3>
 						<input type="text" placeholder="Search here" name="keyword"
 							class="form-control">
 					</div>
 					<div class="text-center m-3">
-						<button class="btn btn-outline-secondary">Search</button>
+						<button class="btn btn-primary p-2">Search</button>
 					</div>
 				</form>
 			</div>
